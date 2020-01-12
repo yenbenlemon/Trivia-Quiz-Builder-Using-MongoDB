@@ -20,6 +20,9 @@ The "database-initializer.js" file was provided by Dave McKenney and is only use
 
 ## Instructions
 
+- Download the project as a .zip
+- Some browsers may flag the filees due to the javascript. Simply keep the files in order to continue.
+
 1. Run "npm install" in the project directory
    - Express will install
    - MongoDB will install
