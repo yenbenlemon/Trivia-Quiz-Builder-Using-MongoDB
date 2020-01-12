@@ -1,0 +1,8 @@
+html
+  head
+    title= Quizzes
+  body
+    each quiz in quizzes
+      a(href=`/quizzes/`+ quiz._id) #{'Creator Name: ' + quiz.creator + '. Tags: ' + quiz.tags}
+      p= '========================================'
+      p

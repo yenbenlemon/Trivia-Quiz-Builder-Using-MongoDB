@@ -1,0 +1,13 @@
+html
+  head
+    title= Questions
+  body
+    each question in questions
+      p= 'Category: ' + question.category
+      p='Difficulty: ' + question.difficulty
+      a(href=`/questions/`+ question._id) #{'Questions: ' + question.question}
+      p
+      p='Correct Answer: ' + question.correct_answer
+      p='Incorrect Answers: ' + question.incorrect_answers
+      p= '========================================'
+      p

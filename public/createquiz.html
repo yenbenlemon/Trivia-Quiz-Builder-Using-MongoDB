@@ -1,0 +1,31 @@
+<html>
+	<head><title>A4 Quiz Creator</title></head>
+	<body onload="initialize()">
+		Creator Name: <input type="textbox" id="nameBox" size="50">
+		<br><br>
+		Quiz Tags: <input type="textbox" id="tagBox" size="50">
+		<br><br>
+		<button type="button" id="submitBtn" onclick="saveQuiz()">Save Quiz</button>
+		<br><br>
+		Current Questions:
+		<br><br>
+		<div id="selectDiv">
+		</div>
+		<br><br>
+		Search/Add Questions:
+		<br><br>
+		<div id="searchDiv">
+			<select id="diffSelect" onchange="search()">
+				<option value="NONE">None</option>
+			</select>
+			<select id="catSelect" onchange="search()">
+				<option value="NONE">None</option>
+			</select>
+			<br><br>
+		</div>
+		<div id="resultDiv">
+		</div>
+	</body>
+
+	<script src="js/quizcreator.js"></script>
+</html>
