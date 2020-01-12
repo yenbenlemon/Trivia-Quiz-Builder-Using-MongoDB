@@ -33,7 +33,7 @@ This project focuses on database integration with Node.js as well as the ability
    - Only a maximum of 25 will be listed
    - You can edit the accept header to test JSON and HTML (defaults to HTML)
    - Uses the questions.pug template for html
-   - Queries are "category" and "difficulty"
+   - Queries are "category" and "difficulty" (ex "questions?difficulty=medium&category=Science:%20Mathematics")
 
 5. Click one of the question links
    - You will be taken to the specific page of the question in the same window/tab
@@ -56,7 +56,7 @@ This project focuses on database integration with Node.js as well as the ability
 
 7. Navigate to "http://localhost:3000/quizzes" in your browser
    - All quizzes are listed here as links with creator name and all Tags
-   - Queries are "name" and "tag"
+   - Queries are "name" and "tag" (ex. "http://localhost:3000/quizzes?name=keith&tag=dance")
    - name is partial matching with case-insensitivity
    - tag is full matching with case-insensitivity
 
