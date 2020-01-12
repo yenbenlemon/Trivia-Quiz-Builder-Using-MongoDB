@@ -1,6 +1,10 @@
 # Trivia-Quiz-Builder-Using-MongoDB
 
-The following project requires an installation of MongoDB on your computer. You can download and install MongoDB from the following link: https://docs.mongodb.com/manual/administration/install-community/
+Updated: 1/10/2020
+
+The following project requires an installation of **MongoDB** on your computer. You can download and install MongoDB from the following link: https://docs.mongodb.com/manual/administration/install-community/
+
+This project focuses on database integration with Node.js as well as the ability to use templates to generate HTML on the fly. The program allows the user to search for various questions through the database and create their own collection of these questions to be used for trivia. 
 
 ## Instructions
 
@@ -10,19 +14,22 @@ The following project requires an installation of MongoDB on your computer. You 
    - Pug will install
 
 2. Run "node database-initializer.js"
+   - We will now have a database of questions
+   
+3. Run "node server.js"
 
-3. Navigate to "http://localhost:3000/questions" in your browser
+4. Navigate to "http://localhost:3000/questions" in your browser
    - All questions and their data will be listed
    - Only a maximum of 25 will be listed
    - You can edit the accept header to test JSON and HTML (defaults to HTML)
    - Uses the questions.pug template for html
    - Queries are "category" and "difficulty"
 
-4. Click one of the question links
+5. Click one of the question links
    - You will be taken to the specific page of the question in the same window/tab
    - If you edit the ID in the url tp an incorrect ID, you will get a 404 message
 
-5. Navigate to "http://localhost:3000/createquiz" in your browser
+6. Navigate to "http://localhost:3000/createquiz" in your browser
    - Creator name and Tag boxes exist
    - There is a Current Questions Div and a Search DIV
    - The page will do an initial search for 25 Questions
@@ -37,12 +44,12 @@ The following project requires an installation of MongoDB on your computer. You 
    - Saving a quiz will generate a link
    - Clicking the link will open the quiz in a new window/tab (might need to refresh it)
 
-6. Navigate to "http://localhost:3000/quizzes" in your browser
+7. Navigate to "http://localhost:3000/quizzes" in your browser
    - All quizzes are listed here as links with creator name and all Tags
    - Queries are "name" and "tag"
    - name is partial matching with case-insensitivity
    - tag is full matching with case-insensitivity
 
-7. Click one of the quiz links
+8. Click one of the quiz links
    - Quiz details are listed as are all quiz questions as links
    - Links lead to the questions page based on ID
