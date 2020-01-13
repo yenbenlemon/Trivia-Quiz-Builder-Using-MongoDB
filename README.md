@@ -4,9 +4,9 @@ Updated: 1/10/2020
 
 The following project requires an installation of **MongoDB** on your computer. You can download and install MongoDB from the following link: https://docs.mongodb.com/manual/administration/install-community/
 
-This project focuses on database integration with Node.js as well as the ability to use templates to generate HTML on the fly. The program allows the user to search for various questions through the database and create their own collection of these questions to be used for trivia.
-
 The "database-initializer.js" file was provided by Dave McKenney and is only used to create the database for the project. The rest of the project is original content. 
+
+This project focuses on database integration with Node.js as well as the ability to use templates to generate HTML on the fly. The program allows the user to search for various questions through the database and create their own collection of these questions to be used for trivia.
 
 ###### Project Assets:
 
